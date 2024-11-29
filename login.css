@@ -1,0 +1,81 @@
+body{
+    background: url(https://th.bing.com/th/id/R.ea07a8520718984273fdaf0a9d9cb67b?rik=nNRJ7BTgZayueA&riu=http%3a%2f%2fimages2.fanpop.com%2fimage%2fphotos%2f8900000%2fTom-Jerry-tom-and-jerry-8965116-1024-768.jpg&ehk=mgv6nCqVPTx%2bU22SQ0ALP6bHetALTNG8Jvltttw14kc%3d&risl=&pid=ImgRaw&r=0);
+ background-size: cover;
+ margin: 0;
+ font-family:'poppins',sans-serif;
+ background-repeat: no-repeat;
+ }
+ 
+ #form{
+    background: url(https://th.bing.com/th/id/R.3db3387a232a63b7732902e7e61aca4c?rik=hfSXGgo0va6R8w&riu=http%3a%2f%2fimages6.fanpop.com%2fimage%2fphotos%2f37700000%2fTom-and-Jerry-tom-and-jerry-37796549-1280-1024.jpg&ehk=OWCro0UU63%2bc16Xk7%2fkqUdQoNMlc9rp147DWoSRcSQ0%3d&risl=&pid=ImgRaw&r=0);
+     width: 400px;
+     margin: 10vh;
+     border-radius: 20px;
+     padding: 20px;
+     background-size: cover;
+     
+ }
+ 
+ h1{
+     text-align: center;
+     color: brown;
+ }
+ 
+ #form button{
+     background-color: #792099;
+     color: white;
+     border: 1px solid #792099;
+     border-radius: 5px;
+     padding: 10px;
+     margin: 20px 0px;
+     cursor: pointer;
+     font-size: 20px;
+     width: 100%;
+ }
+ 
+ .input-group{
+     display: flex;
+     flex-direction: column;
+     margin-bottom: 5px;
+ }
+ 
+ .input-group input{
+     border-radius: 5px;
+     font-size: 12px;
+     margin-top: 5px;
+     padding: 5px;
+     border: 1px solid #14aebf;
+ }
+ 
+ .input-group input:focus{
+     outline: 0;
+ }
+ 
+ .error-message{
+     color: rgb(246, 11, 11);
+     font-size: 8px;
+     margin-top: 2px;
+ }
+ 
+ .input-group.success input{
+     border-bottom: #0cc477;
+ }
+ 
+ .input-group.error-message input{
+     border-bottom: #c73d2e;
+ }
+ 
+ 
+   @media (max-width:450px){
+    #form{
+        width: 300px;
+        height: fit-content;
+        margin: 5vh;
+        border-radius: 20px;
+        padding: 20px;
+        background-size: auto;
+    }
+   }
+
+
+
